@@ -1,0 +1,61 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-arm64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/Users/DK/Documents/PlatformIO/Projects/lm-embedded-controller/include",
+        "C:/Users/DK/Documents/PlatformIO/Projects/lm-embedded-controller/src",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/CMSIS/Include",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/CMSIS/Device/ST/STM32F3xx/Include",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/STM32F3xx_HAL_Driver/Inc",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/STM32F3xx_HAL_Driver/Src",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/CMSIS/DSP/Include",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/Common",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/cs42l52",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/cs43l22",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/hx8347d",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/hx8347g",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/hx8347i",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/i3g4250d",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/ili9320",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/ili9325",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/ili9328",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/l3gd20",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/lsm303agr",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/lsm303dlhc",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/spfd5408",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/st7735",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/stlm75",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Components/stts751",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Drivers/BSP/Adafruit_Shield",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Utilities/CPU",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Utilities/Fonts",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Utilities/Log",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Src",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Inc",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc",
+        "C:/Users/DK/.platformio/packages/framework-stm32cubef3/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src",
+        ""
+      ],
+      "compilerPath": "C:/Users/DK/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-gcc-arm64",
+      "compilerArgs": [
+        ""
+      ]
+    }
+  ],
+  "version": 4
+}

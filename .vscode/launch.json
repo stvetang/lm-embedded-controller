@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/DK/Documents/PlatformIO/Projects/lm-embedded-controller/src",
+      "program": "c:/Users/DK/Documents/PlatformIO/Projects/lm-embedded-controller/src/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/Users/DK/.platformio/packages/toolchain-gdbarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
