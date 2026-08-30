@@ -24,9 +24,9 @@ This project implements a closed-loop control system: an STM32 reads a real anal
 
 ## Example Output
 
-![Standard test output](images/Screenshot 2026-08-30 145551.png)
+![Standard test output](images/Screenshot2026-08-30145551.png)
 
-![Fault injection test output](images/Screenshot 2026-08-30 145606.png
+![Fault injection test output](images/Screenshot2026-08-30145606.png)
 
 ## Setup
 
