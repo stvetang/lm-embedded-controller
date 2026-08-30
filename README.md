@@ -22,14 +22,7 @@ This project implements a closed-loop control system: an STM32 reads a real anal
 
 ## Example Output
 
-sensor: 45 actuator: 45
-sensor: 44 actuator: 45
-sensor: 45 actuator: 45
-...
-Stability check: PASS
-Range check: PASS
-Convergence check: PASS
-3/3 tests passed.
+![Hardware setup](images/Screenshot 2026-08-30 145551.png)
 
 Running fault injection: out-of-range sensor value (10000)
 Sent command: SET 10000
