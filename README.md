@@ -6,6 +6,8 @@ A real-time embedded control system built on an STM32 microcontroller, paired wi
 
 This project implements a closed-loop control system: an STM32 reads a real analog sensor value (via ADC), runs it through a proportional controller, and drives a real physical output (an LED via PWM) toward that target in real time. A companion Python harness listens over serial, logs the data, sends commands to inject fault conditions, and runs automated pass/fail checks against the system's behavior.
 
+![Hardware setup](images/stm32-ad2-setup.jpg)
+
 ## Architecture
 
 - **Firmware (C, STM32 HAL):** reads a real analog input via ADC, runs a proportional control loop to drive a PWM output toward that target, and streams both values over UART. Also listens for serial commands (interrupt-driven) that can override the sensor reading for fault-injection testing.
